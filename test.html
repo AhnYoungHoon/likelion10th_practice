@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset='utf-8'>
+    <title>HTML의 시작</title>
+</head>
+
+<body>
+    <!--제목 태그 예시 3분-->
+    <h1>제목의 중요도 H1</h1>
+    <h2>제목의 중요도 H2</h2>
+    <h3>제목의 중요도 H3</h3>
+    <h4>제목의 중요도 H4</h4>
+    <h5>제목의 중요도 H5</h5>
+    <h6>제목의 중요도 H6</h6>
+    <hr>
+
+
+    <!--본문 태그 예시 3분-->
+    <p>현재 p태그 사용중</p>
+    <p>p태그는 단락을
+        엔터쳐도 안먹히네 ㅠㅠ
+        흑 ㅠㅠㅠ 하나의 단락으로 보이네
+    </p>
+    <p>하지만 p태그를 활용하여 작성하고 있는 중간에
+        <br>태그를 넣어준다면 줄 바꿈이 가능하다!
+    </p>
+
+    <pre>
+        pre태그는 입력한 그대로
+        직접작성을 하다가 
+        그대로 반영 후후후후
+    </pre>
+    <hr>
+
+
+    <!--본문 태그 예시2 3분-->
+    <strong>텍스트를 굵게 표현</strong>
+    <br>
+    <br>
+    <em>텍스트를 기울여서 표현</em>
+    <br>
+    <br>
+    텍스트를 <sub>내려서 표현</sub>
+    <br>
+    <br>
+    텍스트를 <sup>올려서 표현</sup>
+    <br>
+    <br>
+    <ins>텍스트에 밑줄을 삽입</ins>
+    <br>
+    <br>
+    <del>텍스트에 취소선을 삽입</del>
+    <hr>
+
+    <!--링크 태그 예시 3분-->
+    <a href="#section1">이동하려면 클릭하세요</a>
+    <br>
+    <a>Naver</a>
+    <br>
+    <a href="https://www.naver.com">Naver</a>
+    <br>
+    <a href="https://www.naver.com" title="네이버로 이동하는 링크">Naver</a>
+    <br>
+    <br>
+    <a href="https://www.naver.com" target="_blank">Naver 새 탭</a>
+    <br>
+    <a href="https://www.naver.com" target="_self">Naver 현재 탭</a>
+    <h1>공백</h1>
+    <h1>공백</h1>
+    <h1>공백</h1>
+    <h1>공백</h1>
+    <h1>공백</h1>
+    <h1>공백</h1>
+    <h1>공백</h1>
+    <h1>공백</h1>
+    <h1>공백</h1>
+    <p id="section1">이동완료</p>
+    <hr>
+
+
+
+    <!--이미지 태그 예시 3분-->
+    <img src="https://cdn.discordapp.com/attachments/955387965247467520/960839271290388490/KakaoTalk_20220307_143904001.jpg"
+        alt="숭실 멋쟁이 사자처럼 로고" width="10%" height="10%">
+    <br>
+    <img src="" alt="img src 잘못되면 alt 문구가 나와요">
+    <hr>
+
+
+    <!--테이블 태그 예시 3분-->
+    <table>
+        <tr>
+            <th>학과</th>
+            <th>이름</th>
+            <th>파트</th>
+        </tr>
+        <tr>
+            <td>소프트웨어학부</td>
+            <td>김멋쟁</td>
+            <td>디자인</td>
+        </tr>
+        <tr>
+            <td>컴퓨터학부</td>
+            <td>최사자</td>
+            <td>프론트</td>
+        </tr>
+    </table>
+    <hr>
+
+
+    <!--리스트 태그 예시 5분-->
+    <h2>Daily 운동 루틴</h2>
+    <ol>
+        <li>풀업 20*5set</li>
+        <li>팔굽혀펴기 500개</li>
+        <li>딥스 10*5set</li>
+        <li>줄넘기 500개</li>
+        <li>케틀벨 스내치 40개</li>
+        <li>케틀벨 스쿼트 60개</li>
+    </ol>
+    <h2>식단</h2>
+    <ul>
+        <li>한우</li>
+        <li>닭가슴살</li>
+        <li>돼지는 목심</li>
+        <li>프로틴</li>
+    </ul>
+    <h2>스트레칭</h2>
+    <ol type="a" start="3" reversed>
+        <li>가슴 스트레칭</li>
+        <li>허리 스트레칭</li>
+        <li>어깨 스트레칭</li>
+
+    </ol>
+    <hr>
+    <!--method 속성 예시 5분-->
+    <h2>method-GET</h2>
+    <form action="전송할 대상" method="get">
+        <label>ID</label>
+        <input type="text" name="id">
+    </form>
+    <h2>method-POST</h2>
+    <form action="전송할 대상" method="post">
+        <label>ID</label>
+        <input type="text" name="id">
+    </form>
+    <hr>
+
+    <!--Form 태그 예시 Input-5분 select-4분 나머지-6분-->
+    <h2>Form 태그 예시</h2>
+    <form action="URL">
+        <label for="id">ID : </label>
+        <input type="text" name="id" placeholder="아이디를 입력하세요">
+        <br>
+        <label for="pw">PW : </label>
+        <input type="password" name="pw" placeholder="패스워드를 입력하세요">
+        <br>
+        <label for="email adrs">email : </label>
+        <input type="text" name="email adrs" placeholder="이메일을 입력하세요">
+        <select name="email" id="adrs">
+            <optgroup label="이메일 선택">
+                <option value="naver">@naver.com</option>
+                <option value="google">@google.com</option>
+                <option value="daum">@daum.net</option>
+            </optgroup>
+        </select>
+        <br>
+        <div>
+            <h3>다룰 수 있는 언어는?</h3>
+            <input type="checkbox"><label>Java</label>
+            <input type="checkbox"><label>Python</label>
+            <input type="checkbox"><label>C</label>
+            <input type="checkbox"><label>html/css</label>
+            <label for="js"><input type="checkbox" id="js">Js</label>
+        </div>
+    </form>
+    <div>
+        <h3>몇 학년에 재학 중임?</h3>
+        <input type="radio" name="grade"><label>1학년</label>
+        <input type="radio" name="grade"><label>2학년</label>
+        <input type="radio" name="grade"><label>3학년</label>
+        <input type="radio" name="grade"><label>4학년</label>
+    </div>
+    <div>
+        <textarea name="note" id="notebook" cols="30" rows="20" placeholder="글을 작성해주세요"></textarea>
+        <button type="submit">제출하기</button>
+
+    </div>
+</body>
+
+</html>
